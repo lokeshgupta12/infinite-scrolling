@@ -1,0 +1,19 @@
+.login {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  width: 50%;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  .login {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .login {
+    width: 80%;
+  }
+}
